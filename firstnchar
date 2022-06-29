@@ -1,0 +1,18 @@
+//this is the object 
+//n takes the number of characters you want to find
+
+SubEx First3 = new SubEx();
+First3.firstNChars(arr[i],n)
+
+//this is the class
+class SubEx
+{
+    public  String firstNChars(String str, int n) {
+        if (str == null) {
+            return null;
+        }
+        return str.substring(0, Math.min(str.length(), n));
+    }
+ 
+
+}
